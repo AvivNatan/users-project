@@ -1,0 +1,9 @@
+<mat-toolbar color = "primary" class="nav-bar">
+    <span class = "nav-bar-title"> practice App </span>
+    <span class = "nav-bar-spacer"></span>
+    <button mat-button routerLink="" class="nav-bar-button" color="#212529"> Home </button>
+    <button mat-button routerLink="/users" class="nav-bar-button" color="#212529"> Users </button>
+    <button mat-button routerLink="/register" color="#212529" *ngIf="!this.authService.isLoggedIn()"  class="nav-bar-button"> Register </button>
+    <button mat-button routerLink="/login" color="#212529" *ngIf="!this.authService.isLoggedIn()" class="nav-bar-button"> Login </button>
+    <button mat-button routerLink="/logout"  color="#212529" *ngIf="this.authService.isLoggedIn()" class="nav-bar-button" (click)="logout()"> Logout </button>
+</mat-toolbar>

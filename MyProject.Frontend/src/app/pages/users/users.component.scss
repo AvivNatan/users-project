@@ -1,0 +1,47 @@
+table {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin: 1rem 0;
+  font-size: 30px;
+}
+button{
+    font-size: large;
+    width: 50%
+}
+
+.try-again{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+.spacer{
+    flex: 1 1 auto;
+}
+
+.update-con{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.button-update{
+    width:20%;
+}
+.header-update{
+    font-size: 20px;
+}
+
+.gender-dot{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin: auto;
+  border: 1px solid #333;
+}

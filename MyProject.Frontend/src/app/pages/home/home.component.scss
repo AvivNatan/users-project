@@ -1,0 +1,23 @@
+.welcome-card {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  padding: 16px;
+}
+
+.grid-con {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navigate-card {
+  width: 250px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  padding: 10px;
+}
+
+.navigate-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}

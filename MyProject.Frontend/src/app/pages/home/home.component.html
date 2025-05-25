@@ -1,0 +1,29 @@
+<mat-card class="welcome-card">
+    <mat-card-header>
+        <mat-card-title> 👋 Hello! </mat-card-title>
+        <mat-card-subtitle> We're glad you're here </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content> 
+        <p>
+            This is a simple Angular Material-based home page. You can navigate to Users, Profile, or Settings from here.
+        </p>
+    </mat-card-content>
+</mat-card>
+
+<div class="grid-con">
+    <mat-card class="navigate-card" (click)="navigate('users')">
+    <mat-card-title> users </mat-card-title>
+    <mat-card-content> View and manage user data </mat-card-content>
+    </mat-card>
+
+    <mat-card class="navigate-card" (click)="navigate('register')">
+        <mat-card-title>register </mat-card-title>
+        <mat-card-content> go to register form </mat-card-content>
+    </mat-card>
+
+    <mat-card class="navigate-card" (click)="navigate('login')">
+        <mat-card-title>login</mat-card-title>
+        <mat-card-content> go to login form  </mat-card-content>
+    </mat-card>
+</div>
+

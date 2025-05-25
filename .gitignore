@@ -1,0 +1,46 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+
+# Build results
+*.dll
+*.exe
+*.pdb
+
+# Publish output
+publish/
+
+# Angular / Node.js
+node_modules/
+dist/
+.angular/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# MacOS
+.DS_Store

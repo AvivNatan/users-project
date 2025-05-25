@@ -1,0 +1,25 @@
+.nav-bar-title{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 6px 12px;
+    
+}
+.nav-bar-button{
+    font-size: 20px;
+}
+
+.nav-bar-spacer{
+    flex: 1 1 auto;
+}
+
+.nav-bar{
+    display:flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    height: 100px;
+}
+
+span{
+    color: #212529;
+}
+
